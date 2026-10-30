@@ -1,83 +1,135 @@
-# Olá! Eu sou o Felipe 👋
+# Luiz Felipe Miguel Custodio
 
-🎓 **Graduado em Ciência da Computação**
-💻 **Python | Java | SQL | Engenharia de Dados**
-📍 Brasil
+**Graduado em Ciência da Computação | Desenvolvimento Java | Python | SQL | Engenharia de Dados**
 
-Sou graduado em Ciência da Computação, com conhecimentos em desenvolvimento de software, bancos de dados e processamento de dados.
+Sou graduado em Ciência da Computação, com conhecimentos em desenvolvimento de software, integração de APIs REST, bancos de dados relacionais e processamento de dados.
 
-Tenho experiência prática em projetos utilizando **Python, Java, SQL, APIs REST, pipelines ETL e modelagem dimensional**.
+Desenvolvo projetos utilizando Java, Spring Boot, Python, JavaScript e SQL, aplicando conceitos de programação orientada a objetos, arquitetura de aplicações, pipelines ETL, modelagem dimensional e testes automatizados.
 
-Atualmente, desenvolvo soluções voltadas à coleta, transformação, armazenamento e análise de dados, aplicando boas práticas de programação, testes automatizados e versionamento de código.
+Meu portfólio reúne aplicações web e soluções de Engenharia de Dados, demonstrando conhecimentos práticos em desenvolvimento backend, integração de sistemas e tratamento de informações.
 
 ---
 
-## 🛠️ Tecnologias e ferramentas
+## Tecnologias e ferramentas
 
-### Linguagens
+### Linguagens de programação
 
-* Python
 * Java
+* Python
+* JavaScript
 * SQL
+* HTML5
+* CSS3
 
-### Engenharia e processamento de dados
+### Desenvolvimento backend
+
+* Spring Boot
+* Spring Web
+* Spring RestClient
+* APIs REST
+* Maven
+* Programação orientada a objetos
+* Integração com serviços externos
+
+### Engenharia de Dados
 
 * Pandas
 * Pipelines ETL
-* APIs REST
+* Extração e transformação de dados
 * Modelagem dimensional
-* Tratamento e validação de dados
+* Data Warehouse
+* Processamento incremental
+* Validação e integridade de dados
 
 ### Bancos de dados
 
+* PostgreSQL
 * SQLite
 * SQL relacional
 
-### Desenvolvimento e qualidade
+### Ferramentas e qualidade
 
 * Git e GitHub
+* Docker
+* Docker Compose
 * Pytest
+* Maven
 * GitHub Actions
 * Integração contínua (CI)
-* Maven
 
 ---
 
-## 🚀 Projetos em destaque
+## Projetos em destaque
 
-### 🌦️ Weather Data Pipeline
+### 1. Game Explorer
 
-**Python | Pandas | REST API | SQLite | Pytest**
+**Java 21 | Spring Boot | JavaScript | HTML | CSS | REST API | Maven**
 
-Pipeline ETL para coleta e processamento de previsões meteorológicas utilizando a API Open-Meteo.
+Aplicação web full-stack para pesquisa e exploração de jogos, desenvolvida com Java, Spring Boot e JavaScript.
 
-**Funcionalidades:**
+O backend disponibiliza endpoints REST e realiza a integração com a RAWG Video Games Database API. O frontend utiliza JavaScript para consumir os dados e atualizar dinamicamente a interface.
 
-* Extração de dados por API REST.
-* Transformação e tratamento com Pandas.
-* Persistência de dados em SQLite.
-* Atualização de registros sem duplicação.
-* Consultas SQL para análise meteorológica.
-* Testes automatizados.
+**Principais funcionalidades:**
 
-🔗 [Acessar repositório](https://github.com/felipe-migui2308/weather-data-pipeline)
+* Pesquisa de jogos por nome.
+* Exibição automática de jogos na página inicial.
+* Filtragem por avaliação mínima.
+* Ordenação dos resultados por avaliação.
+* Consulta de informações detalhadas dos jogos.
+* Exibição de gêneros, plataformas e desenvolvedoras.
+* Galeria de capturas de tela.
+* Atualização dinâmica dos resultados sem recarregar a página.
+* Armazenamento temporário dos resultados para evitar requisições desnecessárias durante a filtragem.
+* Configuração segura da chave da API por variável de ambiente.
+
+**Conceitos aplicados:** desenvolvimento full-stack, APIs REST, programação orientada a objetos, consumo de APIs externas, manipulação do DOM e comunicação assíncrona.
+
+[Visualizar projeto](https://github.com/felipe-migui2308/game-explorer)
 
 ---
 
-### 🛒 Brazilian E-commerce Data Warehouse
+### 2. Brazilian Financial Pipeline
+
+**Python | PostgreSQL | Docker | Docker Compose | REST API | Pytest | GitHub Actions**
+
+Pipeline de Engenharia de Dados desenvolvido para coletar, transformar e armazenar indicadores econômicos brasileiros utilizando dados disponibilizados pelo Banco Central do Brasil.
+
+A aplicação utiliza PostgreSQL em um ambiente Docker e implementa processamento incremental para evitar o carregamento desnecessário de registros já armazenados.
+
+**Principais funcionalidades:**
+
+* Extração de indicadores econômicos por API REST.
+* Transformação e validação dos dados.
+* Persistência em PostgreSQL.
+* Processamento incremental.
+* Operações de upsert para evitar duplicações.
+* Configuração do banco de dados com Docker Compose.
+* Testes automatizados com Pytest.
+* Integração contínua com GitHub Actions.
+
+**Conceitos aplicados:** pipelines ETL, processamento incremental, bancos de dados relacionais, conteinerização e automação de testes.
+
+[Visualizar projeto](https://github.com/felipe-migui2308/brazilian-financial-pipeline)
+
+---
+
+### 3. Brazilian E-commerce Data Warehouse
 
 **Python | Pandas | SQL | SQLite | Pytest | GitHub Actions**
 
-Data Warehouse desenvolvido com dados públicos da Olist, utilizando um modelo dimensional para organizar e analisar informações comerciais.
+Data Warehouse desenvolvido utilizando dados públicos do e-commerce brasileiro disponibilizados pela Olist.
 
-**Funcionalidades:**
+O projeto implementa um processo ETL para transformar dados transacionais em uma estrutura dimensional voltada à análise de vendas.
 
-* Pipeline ETL para processamento de dados históricos.
-* Modelagem com tabelas fato e dimensões.
-* Processamento de mais de 110 mil itens de pedidos.
-* Consultas SQL para análise de vendas.
-* Verificações de qualidade e integridade.
-* Testes automatizados e integração contínua.
+**Principais funcionalidades:**
+
+* Extração e processamento de dados históricos.
+* Limpeza e transformação de dados com Pandas.
+* Modelagem dimensional com tabelas fato e dimensões.
+* Construção de uma tabela fato de vendas.
+* Consultas SQL para análise de desempenho comercial.
+* Validação de relacionamentos e integridade dos dados.
+* Testes automatizados.
 
 **Resultados do processamento:**
 
@@ -88,24 +140,75 @@ Data Warehouse desenvolvido com dados públicos da Olist, utilizando um modelo d
 | Valor dos produtos vendidos | R$ 13,22 milhões |
 | Ticket médio por pedido     |        R$ 137,04 |
 
-🔗 [Acessar repositório](https://github.com/felipe-migui2308/brazilian-ecommerce-warehouse)
+**Conceitos aplicados:** Data Warehouse, modelagem dimensional, ETL, análise de dados, SQL e qualidade de dados.
+
+[Visualizar projeto](https://github.com/felipe-migui2308/brazilian-ecommerce-warehouse)
 
 ---
 
-## 📚 Aprimoramento técnico
+### 4. Weather Data Pipeline
 
-Atualmente, estou expandindo meus conhecimentos em:
+**Python | Pandas | REST API | SQLite | Pytest**
 
-* PostgreSQL
-* Docker
-* Arquitetura de dados
-* Computação em nuvem
-* Orquestração de pipelines
+Pipeline ETL para coleta, transformação e armazenamento de dados meteorológicos.
+
+O projeto demonstra a construção de um fluxo de processamento de dados, desde a extração até a persistência e consulta das informações.
+
+**Principais funcionalidades:**
+
+* Extração de dados meteorológicos.
+* Transformação e tratamento de registros com Pandas.
+* Persistência de informações em SQLite.
+* Tratamento de registros duplicados.
+* Consultas SQL para análise de temperaturas e precipitação.
+* Testes automatizados para validação das transformações.
+
+**Conceitos aplicados:** ETL, manipulação de dados com Python, persistência relacional, validação de informações e testes automatizados.
+
+[Visualizar projeto](https://github.com/felipe-migui2308/weather-data-pipeline)
 
 ---
 
-## 🎯 Objetivo profissional
+## Conhecimentos aplicados nos projetos
 
-Atuar no desenvolvimento de soluções de software e Engenharia de Dados, aplicando conhecimentos em Python, Java, SQL e bancos de dados para construir sistemas eficientes, organizados e confiáveis.
+| Área                     | Tecnologias e conceitos             |
+| ------------------------ | ----------------------------------- |
+| Desenvolvimento backend  | Java, Spring Boot, APIs REST        |
+| Desenvolvimento frontend | JavaScript, HTML5, CSS3             |
+| Engenharia de Dados      | Python, Pandas, ETL, Data Warehouse |
+| Bancos de dados          | PostgreSQL, SQLite, SQL             |
+| Infraestrutura           | Docker, Docker Compose              |
+| Testes                   | Pytest, testes de integração        |
+| Versionamento            | Git, GitHub                         |
+| Automação                | GitHub Actions, CI                  |
 
-Busco oportunidades para contribuir com projetos reais, ampliar minha experiência profissional e evoluir tecnicamente.
+---
+
+## Aprimoramento técnico
+
+Busco aprimorar continuamente meus conhecimentos em:
+
+* Arquitetura de aplicações Java.
+* Desenvolvimento de APIs REST com Spring Boot.
+* Testes automatizados com JUnit e Mockito.
+* Engenharia e arquitetura de dados.
+* PostgreSQL e otimização de consultas SQL.
+* Docker e ambientes conteinerizados.
+* Computação em nuvem.
+* Orquestração e automação de pipelines.
+
+---
+
+## Objetivo profissional
+
+Busco oportunidades nas áreas de **Desenvolvimento Java, Desenvolvimento Backend e Engenharia de Dados**, nas quais possa aplicar meus conhecimentos técnicos, contribuir para o desenvolvimento de soluções e evoluir profissionalmente.
+
+Tenho interesse em trabalhar com desenvolvimento de aplicações, integração de sistemas, processamento de dados e construção de soluções eficientes, organizadas e confiáveis.
+
+---
+
+## Contato
+
+**LinkedIn:** [Luiz Felipe Miguel Custodio](https://www.linkedin.com/in/luiz-felipe-miguel-custodio-3238b9260/)
+
+**GitHub:** [felipe-migui2308](https://github.com/felipe-migui2308)
